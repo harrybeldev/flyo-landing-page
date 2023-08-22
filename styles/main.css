@@ -1,0 +1,355 @@
+.first-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.text-div1{
+  width: 600px;
+}
+.text-intro1{
+  font-family: Raleway,Arial;
+  font-weight: 700;
+  font-size: 35px;
+  color: hsl(243, 87%, 12%);
+  width: 550px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+.text-description1{
+  font-family: Open Sans,Arial;
+  font-size: 16px;
+  line-height: 20px;
+  color: hsl(243, 87%, 12%);
+  width: 530px;
+  margin-bottom: 15px;
+}
+.search-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 530px;
+  
+}
+
+.search-bar{
+  width: 290px;
+  padding: 9px 2px 9px 10px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 75%);
+  border-radius: 3px;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.15);
+  
+}
+.search-bar:hover{
+  border-color: red;
+}
+.input-box{
+  position: relative;
+}
+
+.input-box .tooltip{
+  position: absolute;
+  color: red;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.input-box:hover .tooltip{
+  opacity: 1;
+}
+.input-box .tooltip2{
+  position: absolute;
+  color: red;
+  font-size: 12px;
+  top: 35px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.input-box:hover .tooltip2{
+  opacity: 1;
+}
+.search-bar::placeholder{
+  font-size: 16px;
+  opacity: 0.2;
+}
+.get-started-button{
+  font-family: Open Sans,Arial;
+  font-weight: 700;
+  font-size: 10px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  padding: 10px 60px 13px 60px;
+  border: none;
+  height: 36px;
+  margin-right: 50px;
+  border-radius: 2px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.get-started-button:hover{
+  opacity: 0.7;
+}
+.illustration1{
+  width: 600px;
+}
+.second-div1{
+  display: flex;
+  justify-content: space-between;
+}
+.second-div2{
+  height: 500px;
+  background-color: hsla(0, 0%, 75%, 0.09);
+  padding-top: 45px;
+  padding-left: 50px;
+
+}
+.third-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(238, 22%, 44%);
+  height: 250px;
+}
+
+.background1{
+  width: 1247px;
+  margin-top: 150px;
+}
+.text-intro2{
+  width: 650px;
+  font-family: Raleway,Arial;
+  font-weight: 800;
+  font-size: 40px;
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 30px;
+}
+.text-description2{
+  font-family: Raleway,Arial;
+  color: hsl(243, 87%, 12%);
+  width: 550px;
+  margin-bottom: 20px;
+}
+.text-description3{
+  font-family: Raleway,Arial;
+  color: hsl(243, 87%, 12%);
+  width: 540px;
+  margin-bottom: 20px;
+}
+.text-description4{
+  display: flex;
+  text-decoration: underline;
+  color: hsl(170, 45%, 43%);
+  margin-bottom: 30px;
+  cursor: pointer;
+  width: 150px;
+}
+.text-description4:hover{
+  opacity: 0.8;
+}
+
+.text-description5{
+  font-family: Raleway,Arial;
+  font-size: 11px;
+  width: 230px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+.box-div{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 250px;
+  height: 170px;
+  padding-top: 25px;
+  padding-left: 25px;
+  border-radius: 3px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.15);
+}
+.author-bio{
+  display: flex;
+  flex-direction: row;
+  font-family: Raleway,Arial;
+  font-size: 10px;
+  color: hsl(243, 87%, 12%);
+  margin-top: 15px;
+}
+.author-profile{
+  margin-left: 8px;
+}
+.author-name{
+  font-weight: 800;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.author-description{
+  font-size: 9px;
+}
+.avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.illustration2-pic{
+  background-color: hsla(0, 0%, 75%, 0.09);
+  width: 600px;
+  padding-top: 70px;
+  padding-left: 30px;
+
+}
+.illustration2{
+  width: 500px;
+}
+.text-intro3{
+  font-family: Raleway,Arial;
+  font-weight: 800;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 20px;
+}
+.text-description6{
+  font-family: Raleway,Arial;
+  color: white;
+  font-size: 13.5px;
+  width: 410px;
+  line-height: 20px;
+  
+}
+.search-bar2{
+  width: 400px;
+  padding: 9px 2px 9px 10px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 75%);
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.search-bar2::placeholder{
+  font-size: 10px;
+  opacity: 0.2;
+}
+.get-started-button2{
+  font-family: Open Sans,Arial;
+  font-weight: 700;
+  font-size: 10px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  padding: 3px 30px 3px 30px;
+  border: none;
+  height: 36px;
+  border-radius: 2px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.get-started-button2:hover{
+  background-color: lightblue;
+  opacity: 1;
+}
+.search-row1{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.text-div2{
+margin-left: 50px;
+}
+.fourth-div{
+display: flex;
+flex-direction: column;
+background-color: hsl(243, 87%, 12%);
+height: 300px;
+padding-left: 50px;
+padding-top: 100px;
+}
+.fourth1-div{
+display: flex;
+justify-content: space-between;
+background-color: hsl(243, 87%, 12%);
+height: 300px;
+width: 1000px;
+}
+
+.info-row1{
+display: flex;
+justify-content: space-between;
+width: 200px;
+font-family: Open Sans,Arial;
+font-size: 14px;
+color: white;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.info-row2{
+display: flex;
+justify-content: space-between;
+width: 165px;
+font-family: Open Sans,Arial;
+font-size: 14px;
+color: white;
+}
+.icon{
+width: 15px;
+}
+.socials-row{
+display: flex;
+width: 150px;
+justify-content: space-between;
+padding-top: 10px;
+}
+.socials{
+width: 20px;
+}
+.socials1{
+width: 15px;
+
+}
+.column2{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 150px;
+font-family: Open Sans,Arial;
+font-size: 14px;
+color: white;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.column3{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100px;
+font-family: Open Sans,Arial;
+font-size: 14px;
+color: white;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.socials-button{
+width: 35px;
+height: 35px;
+border-radius: 17.5px;
+border-width: 1px;
+border-color: white;
+border-style: solid;
+background-color: transparent;
+}
+.column1 div:hover{
+color: hsl(238, 22%, 44%);
+cursor: pointer;
+
+}
+.column2 div:hover{
+  color: hsl(238, 22%, 44%);
+  cursor: pointer;
+}
+.column3 div:hover{
+  color: hsl(238, 22%, 44%);
+  cursor: pointer;
+}
+.socials-button:hover{
+  background-color: hsl(224, 93%, 58%);
+  cursor: pointer;
+}
